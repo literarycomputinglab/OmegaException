@@ -9,7 +9,7 @@ package it.cnr.ilc.lc.omega.exception;
  *
  * @author simone
  */
-public class InvalidURIException extends Exception {
+public class InvalidURIException extends RuntimeException {
 
     public InvalidURIException() {
     }
